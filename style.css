@@ -1,0 +1,329 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*common code start*/
+body{
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+}
+/*common code end*/
+
+/*container start*/
+header{
+	padding-top: 5px;
+	background-color: #121b2a;
+	border-bottom: 5px solid #0a0e17;
+}
+.container{
+	margin: 0 auto;
+	width: 80%;
+	
+	overflow: hidden;
+	
+}
+.logo{
+	width:15%;
+	float: left;
+	
+}
+.logo img{
+	width: 100%;
+}
+
+.upper_menu{}
+.upper_img{
+	width: 48%;
+	float: right;
+}
+.upper_img img{
+	width: 100%;
+	
+}
+
+.menu{
+	width:70%;
+	float: right; 
+}
+.lower_menu ul{
+	float: right;
+}
+.lower_menu ul li{
+	list-style: none;
+	float: left;
+}
+.lower_menu ul li a{
+	margin: 20px 0 10px 0;
+
+	padding-right: 35px;
+	text-decoration: none;
+	color:  #d8dadc;
+	display: inline-block;
+	transition: 0.5s;
+}
+.lower_menu ul li a:hover{
+	color:#055f95;
+}
+.lower_menu ul li:nth-child(5) a{
+	padding-right: 0;
+}
+/*container end*/
+/*slider start*/
+.slider{
+	background-image: url(images/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:center ;
+	
+}
+.slider_content{
+	margin-top: 225px;
+	margin-bottom: 100px;
+	width: 50%;
+	
+}
+.slider_content p:nth-child(1){
+	font-size: 30px;
+	color: #eff0f1;
+}
+.slider_content h1{
+	font-size: 42px;
+	color: #0074b9;
+}
+.slider_content p:nth-child(3){
+	font-size: 17px;
+	color:#eff0f1;
+	line-height: 25px;
+}
+.slider_content button{
+	border: none;
+	padding: 10px 20px;
+	font-size: 20px;
+	font-weight: 700;
+	color: #6a6a6a;
+	margin: 20px 0;
+	border-radius: 5px;
+}
+.slider_content button span{
+	padding: 5px 10px;
+	background-color: #0679ba;
+	color: white;
+	border-radius: 50%; 
+}
+/*slider end*/
+
+
+/*service start*/
+.service{
+	background-color: #121b2c;
+	padding: 50px 0 ;
+}
+.f_single{
+	width: 30%;
+	float: left;
+	border-right: 1px solid #6a6a6a;
+}
+
+.wrapper1{
+	overflow: hidden;
+}
+.f_img{
+	width: 25%;
+	float: left;
+	
+}
+.f_img img{
+	width: 100%;
+}
+.f_content{
+	margin-left: 5px;
+	margin-top: 12px;
+	width: 65%;
+	float: left;
+	
+}
+.f_content p{
+	font-size: 25px;
+	color: white;
+}
+.f_content h2{
+	margin-top: 3px;
+	color: #0274b9;
+}
+
+.wrapper2{}
+.wrapper2 p{
+	color: white;
+	margin-top: 15px;
+	line-height: 25px;
+
+}
+
+.secend{
+	margin: 0 25px;
+	padding-right: 25px;
+}
+.third{
+	border-right: 0px;
+}
+.text p{
+	text-align: left;
+	margin-right: 10px;
+}
+/*service end*/
+/*address start*/
+.address{
+	padding: 25px 0;
+	background-color: #040811;
+}
+.container2{
+	width: 75%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.a_single1{
+	width: 30%;
+	float: left;
+}
+.a_single1 h2{
+	margin-top: 15px;
+	font-size: 20px;
+	font-weight: 400;
+	color: white;
+}
+.a_single1 h2 span{
+	font-weight: 700;
+	color:#0274b9;
+}
+.p_1{
+	margin: 15px 0;
+	font-size: 14px;
+	color:white;
+	margin-right: 13px;
+	line-height: 25px;
+
+}
+.p_2{
+	font-size: 14px;
+	color:white;
+	margin-right: 76px;
+	line-height: 25px;
+}
+.p_3{
+	font-size: 14px;
+	margin-top: 10px;
+	color:white;
+}
+
+.a_single2{
+	margin-right: 10px;
+	width: 30%;
+	float: left;
+}
+.box{
+	padding: 10px;
+	border-radius: 5px;
+	background-color: #0c1019;
+}
+.box h2{
+	padding-top: 10px;
+	margin-bottom: 10px;
+	color:white;
+}
+.box h2 span{
+	color: #0274b9;
+}
+.box p{
+	margin: 10px 0;
+	color: white;
+}
+.mail{
+	margin-top: 15px;
+}
+.mail h2{
+	font-size: 16px;
+	color:white;
+}
+.mail p{
+	color:white;
+}
+
+.a_single3{
+	margin-left: 18px;
+	width: 30%;
+	float: left;
+}
+.a_single3 img{
+	width: 100%;
+}
+/*address end*/
+/*footer start*/
+.footer{
+	padding-top: 20px;
+	padding-bottom: 40px;
+	background-color: #121b2c;
+}
+.container3{
+	width: 72%;
+	margin: 0 auto;
+	
+	overflow: hidden;
+}
+
+.f_left{
+	width:60%;
+	
+	float: left;
+}
+.f_left p{
+	font-size: 14px;
+	color:white;
+}
+.f_menu{
+	overflow: hidden;
+}
+.f_menu ul{
+
+}
+.f_menu ul li{
+	list-style: none;
+	float: left;
+}
+.f_menu ul li a{
+	margin: 30px 0 10px 0;
+	padding-right: 15px;
+	text-decoration: none;
+	color:  #d8dadc;
+
+	display: inline-block;
+	transition: 0.5s;
+}
+.f_menu ul li a:hover{
+	color:#055f95;
+}
+
+.f_right{
+	width:35%;
+	
+	float: right;
+	overflow: hidden;
+}
+.fo_img1{
+    margin:25px 10px 10px 10px;
+	width: 45%;
+	float: left;
+}
+.fo_img1 img{
+	width: 100%;
+}
+.fo_img2{
+	margin: 15px 0px 10px 10px;
+	width: 45%;
+	float: left;
+}
+.fo_img2 img{
+	width: 100%;
+}
+/*footer end*/

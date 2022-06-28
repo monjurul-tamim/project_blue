@@ -1,0 +1,97 @@
+  background coloor  -- 
+  menu --- #121b2a
+  banner-- #121b2a
+  feature--#121b2c
+  about -- #040811 
+  footer-- #121b2c
+
+upper menu text color  --  #9fa3aa  
+
+text hover color
+--------
+ blue-- #055f95
+
+ menu color
+---------
+ white -- #d8dadc
+
+banner --- 
+   white-- #eff0f1
+   ash --- #6a6a6a
+   blue--- #0274b9
+
+   #858a92
+
+
+feature color 
+   ash--- #6a6a6a
+   blue--- #0274b9
+ 
+footer color
+-----------
+    #d8dadc
+
+
+
+
+menu text
+-------
+ HOME ABOUT US SOLUTIONS MOBILE APPLICATIONS CAREERS
+
+A CLIENT LOGIN  EMPLOYEE LOGIN
+
+slider text
+----------
+Delivering Mobile
+Communication Solutions
+Oceans Edge is a global provider of mobile communications solutions for government and commercial organizations
+LEARN MORE
+
+feature text
+------------
+1. h2-- Wireless Cyber Security
+   p--- Our team of industry experts provides a broad range of wireless expertise ranging in the areas of strategy, architecture, business models, development, implementation and operations
+
+2. h2---Mission App Development
+   p--- We develop customized content and provide a full range of existing mobile device content. we develop customized solutions and offer existing solutions to manage our customers' devices and data.
+ 
+3. h2--- Wireless Systems
+   p---  We develop customized security solutions and offer existing solutions that provide our customers with secure mobile communications, data integrity and specialized secure data applications.
+
+about text
+----------
+h2---- Oceans Edge Inc.
+
+p--- 1861 Wiehle Avenue, Suite #250 Reston, VA 20190
+Toll Free +1 (703) 793.9217
++1 (703) 535-3321
+Fax
+Email
+information@oceansedge.biz
+
+
+Customer's Testimonials
+
+"I ask new customers who visit my bakery,
+'How did you hear about us?' Almost all of
+them say they found us on the web. Of all the
+different methods of advertising.
+
+Rhoda Worku
+www.CabooseBakery.com
+
+
+footer text
+-----------
+Home | About Us | Solutions | Mobile Applications | Careers | Contact Us
+
+Copyright© 2010. Oceans' Edge, Inc., All Rights Reserved
+
+
+symbian
+
+
+
+
+
+  border: 1px solid blue;
